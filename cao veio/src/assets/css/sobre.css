@@ -1,0 +1,61 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 50px 20px;
+    max-width: 1400px;
+    width: 100%;
+    font-family: "Roboto", sans-serif;
+    color: #FFF;
+    background-color: #000;
+    margin: 0 auto;
+}
+.sobre{
+    width: 400px;
+    margin: 15px 30px;
+}
+.sobre h2{
+    color: #B5843B;
+    margin-left: 50px;
+    text-transform: uppercase;
+    font-weight: normal;
+
+}
+.sobre h1{
+    font-size: 70px;
+    width: 430px;
+    margin: 0 ;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+.sobre p{
+    word-spacing: 2.5px;
+    font-weight: normal;
+    font-size: 18px;
+    width: 500px;
+}
+.sobre button {
+    margin-top: 25px;
+    width: 150px;
+    height: 50px;
+    border: none;
+    background-color: #B5843B;
+    color: #000;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 25px 0;
+    transition: background 0.3s ease-in-out, width 0.3s ease-in-out;
+    font-family: "Roboto", sans-serif;
+    position: relative; /* Para não ser afetado pelo ::before */
+    z-index: 1;
+    text-transform: uppercase;
+}
+
+.sobre button:hover {
+    background-color: #C99648;
+    color: #FFF;
+    width: 160px;
+}
+.container img{
+    height: 600px;
+}
