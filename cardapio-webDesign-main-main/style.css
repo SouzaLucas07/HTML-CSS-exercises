@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 40px 0;
+    background: #1c1c1c;
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.a3 {
+    background-color: rgba(0, 0, 0, .7);
+    width: 297mm;
+    height: 400mm;
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.3);
+    background-image: url('images/pablo-merchan-montes-hyIE90CN6b0-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    border-radius: 10mm;
+}
+
+.tittle img {
+    display: block;
+    margin: 50px auto;
+    width: 250px;
+    height: 200px;
+    color: aliceblue;
+    border-radius: 50%;
+}
+
+.first-row {
+    width: 297mm;
+    display: flex;
+    margin: 0mm 0mm 0mm 15mm;
+}
+
+.second-row {
+    width: 297mm;
+    display: flex;
+    margin: 20mm 0mm 0mm 15mm;
+}
+
+.left-box {
+    width: 105mm;
+    height: 140mm;
+    background-color: rgb(66, 28, 20, .8);
+    border-radius: 10mm;
+}
+
+.left-box-second {
+    width: 105mm;
+    height: 140mm;
+    background-color: rgb(66, 28, 20, .8);
+    border-radius: 10mm;
+}
+
+.align-rigth {
+    margin-left: 10mm;
+}
+
+.right-box {
+    align-items: right;
+}
+
+.first-item {
+    width: 167mm;
+    height: 65mm;
+    background-color: rgb(66, 28, 20, .8);
+    border-radius: 45mm 0 0 45mm;
+}
+
+.second-item {
+    width: 167mm;
+    height: 65mm;
+    background-color: rgb(66, 28, 20, .8);
+    border-radius: 45mm 0 0 45mm;
+    margin: 10mm 0 0 0;
+}
+
+.tittle-left-box {
+    font-family: serif;
+    font-size: 12mm;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+.subtittle-fries {
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+.subtittle-box-left {
+    margin-top: -6mm;
+    display: inline-block;
+    position: relative;
+    font-size: 10mm;
+    font-family: "Dancing Script", system-ui;
+    font-optical-sizing: auto;
+    font-style: normal;
+    letter-spacing: 4px;
+}
+
+.subtittle-box-left::after,
+.subtittle-box-left::before {
+    content: "";
+    position: absolute;
+    top: 26px;
+    width: 75px;
+    height: 2px;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.subtittle-box-left::before {
+    left: -90px;
+    /* Ajuste para posicionar a linha antes do título */
+}
+
+.subtittle-box-left::after {
+    right: -90px;
+    /* Ajuste para posicionar a linha depois do título */
+}
+
+.cardapio-fritas {
+    margin: -7mm 0 0 10mm;
+}
+
+.cardapio-fritas>.porcao-menor>.item-cardapio {
+    font-family: serif;
+    color: white;
+    font-size: 5mm;
+    letter-spacing: .5mm;
+    display: flex;
+}
+
+.cardapio-fritas>.porcao-menor>.item-cardapio>.preco {
+    margin: 5mm 10mm 0 auto;
+}
+
+.cardapio-fritas>.porcao-menor>.descricao {
+    font-family: serif;
+    color: white;
+    font-size: 4mm;
+    letter-spacing: .5mm;
+    margin-top: -4mm;
+    opacity: .6;
+}
+
+.cardapio-burguer {
+    margin: -7mm 0 0 10mm;
+}
+
+.cardapio-burguer>.porcao-menor>.item-cardapio {
+    font-family: serif;
+    color: white;
+    font-size: 5mm;
+    letter-spacing: .5mm;
+    display: flex;
+}
+
+.cardapio-burguer>.porcao-menor>.item-cardapio>.preco {
+    margin: 5mm 10mm 0 auto;
+}
+
+.cardapio-burguer>.porcao-menor>.descricao {
+    font-family: serif;
+    color: white;
+    font-size: 4mm;
+    letter-spacing: .5mm;
+    margin-top: -6mm;
+    opacity: .6;
+}
+
+.first-item {
+    display: flex;
+}
+
+.combo {
+    font-family: serif;
+    color: white;
+    font-size: 10mm;
+    letter-spacing: .5mm;
+    margin: 0 0 -7mm 12mm;
+}
+
+.subtittle-burguer {
+    margin-top: -15mm;
+    margin-left: 20mm;
+    display: inline-block;
+    position: relative;
+    font-size: 6mm;
+    font-family: "Dancing Script", system-ui;
+    font-optical-sizing: auto;
+    font-style: normal;
+    letter-spacing: 4px;
+    color: white;
+}
+
+.description-subtittle-burguer::after,
+.description-subtittle-burguer::before {
+    content: "";
+    position: absolute;
+    top: 35px;
+    width: 50px;
+    height: 2px;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.description-subtittle-burguer::before {
+    left: -60px;
+    /* Ajuste para posicionar a linha antes do título */
+}
+
+.description-subtittle-burguer::after {
+    right: -60px;
+    /* Ajuste para posicionar a linha depois do título */
+}
+
+.second-item {
+    display: flex;
+}
